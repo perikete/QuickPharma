@@ -1,0 +1,14 @@
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web\bin\QuickPharma.Web.dll
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web\bin\QuickPharma.Web.pdb
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web\bin\QuickPharma.Web.Controllers.dll
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web\bin\QuickPharma.Web.Controllers.pdb
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web\obj\Debug\ResolveAssemblyReference.cache
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web\obj\Debug\QuickPharma.Web.dll
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web\obj\Debug\QuickPharma.Web.pdb
+C:\Fuentes\MapuWorld\Solution1\QuickPharma.Web\bin\QuickPharma.Web.dll
+C:\Fuentes\MapuWorld\Solution1\QuickPharma.Web\bin\QuickPharma.Web.pdb
+C:\Fuentes\MapuWorld\Solution1\QuickPharma.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Fuentes\MapuWorld\Solution1\QuickPharma.Web\obj\Debug\QuickPharma.Web.dll
+C:\Fuentes\MapuWorld\Solution1\QuickPharma.Web\obj\Debug\QuickPharma.Web.pdb
+C:\Fuentes\MapuWorld\Solution1\QuickPharma.Web\bin\QuickPharma.Web.Controllers.dll
+C:\Fuentes\MapuWorld\Solution1\QuickPharma.Web\bin\QuickPharma.Web.Controllers.pdb

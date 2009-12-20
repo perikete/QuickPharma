@@ -1,0 +1,5 @@
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Controllers\obj\Debug\ResolveAssemblyReference.cache
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Controllers\bin\Debug\MapuWorld.Web.Controllers.dll
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Controllers\bin\Debug\MapuWorld.Web.Controllers.pdb
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Controllers\obj\Debug\MapuWorld.Web.Controllers.dll
+c:\Fuentes\MapuWorld\Solution1\MapuWorld.Controllers\obj\Debug\MapuWorld.Web.Controllers.pdb
