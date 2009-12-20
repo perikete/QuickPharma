@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="0.3.0.0" Id="5eebb21e-919b-4ddd-b69e-0e30dc9ecd77" name="UMLClassDiagram1" linkedPackageId="8da68911-017d-4b97-a03c-47eb799ffc61" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="bc1b252f-cb7b-4567-86c1-ad8de115623e">
+      <profileInstance Id="abac6eca-d1d6-49e0-9c82-a0518d0a8a2c" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b49e4d02-350b-4c50-b86c-0f0a22e0fa4f">
+      <profileInstance Id="d7c98b9e-40f6-4eb9-9ea2-704ed37ab5d7" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b4b0637e-46ab-47ce-94f0-d0d63d0a045f" name="Dosis" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="649f5c28-17b0-49aa-b8b0-82d2c5440691" />
+        <targetEnds>
+          <association Id="fbca9daa-7cb2-4451-a999-d2352dfeb8eb" isDerived="false" sourceEndRoleName="Dosis" targetEndRoleName="UnitType" isLeaf="false" isAbstract="false">
+            <enumerationMoniker Id="450b2829-365a-4b8f-8c09-39b3e164cca6" LastKnownName="UnitType" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5c2534d6-22e2-4692-b3a2-87e2d7e42744" name="Dosis" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="abfc2594-1965-487c-8802-f3cdeaf0f8d7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="03a98b72-c0ad-4daa-9fa9-eb8daabe49cd" name="UnitType" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cf78a9ca-9171-4d14-99fc-af949838df4a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5e9317ab-011d-47fe-aada-a4ca33bde15a" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="6dfa6caa-032d-4ab9-b719-ae15d49234b1" name="Unit" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="516b4ef7-8064-4dbe-a62c-2e0888b83980" />
+          </property>
+          <property Id="8ada557e-a597-4535-a96b-eef3a5d95668" name="UnitType" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1fd45a78-7702-4109-a7c6-09c7dfbf2023" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="450b2829-365a-4b8f-8c09-39b3e164cca6" name="UnitType" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="359a107c-45c0-4bde-9ffd-0af422a786cf" />
+        <ownedLiterals>
+          <enumerationLiteral Id="14f87763-c643-4362-a007-5a9a6b65f79b" name="ML">
+            <elementDefinition Id="af9e6fdb-ed51-4239-bc71-5de14e752740" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="8772c0ba-4b96-462e-87ee-130e6ff6e798" name="MG">
+            <elementDefinition Id="37a85d84-db19-4bb6-9145-a1e4f364ea4c" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="cec77ffb-d949-438e-bc31-60091b5813ec" name="CC">
+            <elementDefinition Id="147465f4-5da0-429f-9212-4ed28bede6d8" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7af8324d-c44a-41f0-a60d-2bf698e936d4" name="Drug" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="175460e8-e782-4e35-8243-e210c95afdde" />
+        <targetEnds>
+          <association Id="934ea7f9-16dc-4c6c-862e-66027c4efd4f" isDerived="false" sourceEndRoleName="Drug" targetEndRoleName="Dosis" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b4b0637e-46ab-47ce-94f0-d0d63d0a045f" LastKnownName="Dosis" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1079d586-7a5e-4b1e-b470-dc98b7104039" name="Drug" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1c7cba16-b028-442e-bdc4-909555c3dbe9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8322d627-938c-4717-9da4-9891fce297d1" name="Dosis" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="62eca855-2c97-4ccb-969a-6d1f08938b00" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9dd4ae05-b420-48af-a536-990feb5cd102" />
+          </association>
+          <association Id="4dcf9668-db87-4aa8-9faa-521e5d4c5041" isDerived="false" sourceEndRoleName="Drug" targetEndRoleName="Laboratory" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b072f02b-e155-43f7-9177-750075415548" LastKnownName="Laboratory" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8ab51d94-3b29-455d-bcc0-6404f62d9dd5" name="Drug" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7f38d615-2321-4b11-90e6-477201edb221" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7649694a-1bbf-4ac7-8d08-ad22c517f74f" name="Laboratory" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="af002228-1bfd-415e-bb9b-8847dcbe74e6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="282a3350-7903-40fb-b929-3959f2b19cde" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="ad12c9cb-2bd9-4647-a5a1-21a5a0eb273e" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d279cc85-3582-4fde-85f1-5eb59f954b7a" />
+          </property>
+          <property Id="3503fa44-691d-4634-8f14-21575a096080" name="Description" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="63c60c43-e14d-4c17-9758-d36bd86a4167" />
+          </property>
+          <property Id="d65eb134-d38e-469e-b12e-56f4c8a31a68" name="BarCode" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a5f7823b-fa71-4de5-992f-21cb24fa6254" />
+          </property>
+          <property Id="1ba1f48f-e9dd-45ac-9f6d-ffb24bfaefe4" name="Presentation" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e98f62fa-7a4c-4db6-bb64-6e748da67256" />
+          </property>
+          <property Id="d3db63b1-2eb9-40c4-bafb-cfa9c30dfe13" name="IsRecipeRequired" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="733428ea-2302-41ce-bf34-76673aa9f8ef" />
+          </property>
+          <property Id="d45642d9-9b85-45d9-a523-0ba4167e4b5e" name="NeedsRefrigeration" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dbed3d6d-1c65-47d5-a8ba-f85e4e516d8f" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b072f02b-e155-43f7-9177-750075415548" name="Laboratory" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b76bae86-9669-468b-914b-652e96b2f4f3" />
+        <ownedAttributesInternal>
+          <property Id="acbeae88-4b36-4096-85bf-10c5171f893f" name="Name" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d3a47095-431c-4234-ac1d-e2c398030d2f" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="8da68911-017d-4b97-a03c-47eb799ffc61" name="QuickPharma Core Model">
+    <elementDefinition Id="3eefdb7c-a398-4fcf-a23f-0a3975042db5" />
+  </package>
+</logicalClassDesignerModel>
