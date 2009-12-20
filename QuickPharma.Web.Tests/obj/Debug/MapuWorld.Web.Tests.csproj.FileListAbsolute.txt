@@ -1,8 +1,0 @@
-c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web.Tests\obj\Debug\ResolveAssemblyReference.cache
-c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web.Tests\bin\Debug\MapuWorld.Web.Tests.dll.config
-c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web.Tests\bin\Debug\MapuWorld.Web.Tests.dll
-c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web.Tests\bin\Debug\MapuWorld.Web.Tests.pdb
-c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web.Tests\bin\Debug\MapuWorld.Web.Controllers.dll
-c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web.Tests\bin\Debug\MapuWorld.Web.Controllers.pdb
-c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web.Tests\obj\Debug\MapuWorld.Web.Tests.dll
-c:\Fuentes\MapuWorld\Solution1\MapuWorld.Web.Tests\obj\Debug\MapuWorld.Web.Tests.pdb

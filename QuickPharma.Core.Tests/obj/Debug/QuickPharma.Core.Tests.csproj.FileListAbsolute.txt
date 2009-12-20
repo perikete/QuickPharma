@@ -1,7 +1,0 @@
-C:\Fuentes\MapuWorld\Solution1\QuickPharma.Core.Tests\bin\Debug\QuickPharma.Core.Tests.dll
-C:\Fuentes\MapuWorld\Solution1\QuickPharma.Core.Tests\bin\Debug\QuickPharma.Core.Tests.pdb
-C:\Fuentes\MapuWorld\Solution1\QuickPharma.Core.Tests\obj\Debug\ResolveAssemblyReference.cache
-C:\Fuentes\MapuWorld\Solution1\QuickPharma.Core.Tests\obj\Debug\QuickPharma.Core.Tests.dll
-C:\Fuentes\MapuWorld\Solution1\QuickPharma.Core.Tests\obj\Debug\QuickPharma.Core.Tests.pdb
-C:\Fuentes\MapuWorld\Solution1\QuickPharma.Core.Tests\bin\Debug\QuickPharma.Core.dll
-C:\Fuentes\MapuWorld\Solution1\QuickPharma.Core.Tests\bin\Debug\QuickPharma.Core.pdb
