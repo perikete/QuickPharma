@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4F800D95-7A93-4263-BF72-A8249F0D38B5}</ProjectGuid>
+    <ProjectGuid>{A6421D24-923F-4187-A2A9-7F00A3E2134F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QuickPharma.Core</RootNamespace>
-    <AssemblyName>QuickPharma.Core</AssemblyName>
+    <RootNamespace>QuickPharma.Infrastructure.NHibernate</RootNamespace>
+    <AssemblyName>QuickPharma.Infrastructure.NHibernate</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\Tools\NHibernate\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\Tools\NHibernate\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\Tools\NHibernate\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\Tools\NHibernate\NHibernate.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,21 +52,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\Check.cs" />
-    <Compile Include="Contracts\ContractException.cs" />
-    <Compile Include="Contracts\PostConditionFailException.cs" />
-    <Compile Include="Contracts\PreConditionFailException.cs" />
-    <Compile Include="Entity.cs" />
-    <Compile Include="IEntity.cs" />
-    <Compile Include="IEntityWithTypedId.cs" />
-    <Compile Include="Model\Dosis.cs" />
-    <Compile Include="Model\Drug.cs" />
-    <Compile Include="Model\Laboratory.cs" />
-    <Compile Include="Model\UnitType.cs" />
+    <Compile Include="DrugRepository.cs" />
+    <Compile Include="NHibernateHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\IDrugRepository.cs" />
-    <Compile Include="Repositories\IRepository.cs" />
-    <Compile Include="ValueObject.cs" />
+    <Compile Include="Repository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickPharma.Core\QuickPharma.Core.csproj">
+      <Project>{4F800D95-7A93-4263-BF72-A8249F0D38B5}</Project>
+      <Name>QuickPharma.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
