@@ -3,7 +3,7 @@
     /// <summary>
     /// Entity interface.
     /// </summary>
-    public interface IEntity : IEntityWithTypedId<int>
+    public interface IEntity : IEntityWithTypedId<long>
     {
     }
 }

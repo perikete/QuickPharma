@@ -4,6 +4,7 @@ using NHibernate;
 using NHibernate.Cfg;
 using System.Collections.Generic;
 using NHibernate.Criterion;
+using System;
 
 namespace QuickPharma.Infrastructure.NHibernate
 {
@@ -13,17 +14,17 @@ namespace QuickPharma.Infrastructure.NHibernate
         
         public Repository()
         {
-            this.Session = NHibernateHelper.GetSession();
+            this.Session = NHibernateHelper.CreateSession();
         }
         
         public void Add(TEntity entity)
         {
-            this.Session.Save(entity);
+            this.DoOnTransaction(() => this.Session.Save(entity));
         }
 
         public void Delete(TEntity entity)
         {
-            this.Session.Delete(entity);
+            this.DoOnTransaction(() => this.Session.Delete(entity));
         }
 
         public TEntity GetById(int id)
@@ -35,6 +36,27 @@ namespace QuickPharma.Infrastructure.NHibernate
         {
             ICriteria crit = this.Session.CreateCriteria<TEntity>();
             return crit.List<TEntity>();
+        }
+
+        private void DoOnTransaction(Action action)
+        {
+            using (var tx = this.Session.BeginTransaction())
+            {
+                try
+                {
+                    tx.Begin();
+                    action();
+                    tx.Commit();
+                }
+                catch
+                {
+                    tx.Rollback();
+                }
+                finally
+                {
+                    this.Session.Flush();
+                }
+            }
         }
     }
 }

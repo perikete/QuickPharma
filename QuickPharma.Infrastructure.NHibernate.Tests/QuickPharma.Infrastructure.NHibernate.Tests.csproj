@@ -40,11 +40,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NHibernateRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="nhibernate.cfg.xml" />
+    <Content Include="nhibernate.cfg.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickPharma.Core\QuickPharma.Core.csproj">
+      <Project>{4F800D95-7A93-4263-BF72-A8249F0D38B5}</Project>
+      <Name>QuickPharma.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuickPharma.Infrastructure.NHibernate\QuickPharma.Infrastructure.NHibernate.csproj">
+      <Project>{A6421D24-923F-4187-A2A9-7F00A3E2134F}</Project>
+      <Name>QuickPharma.Infrastructure.NHibernate</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
